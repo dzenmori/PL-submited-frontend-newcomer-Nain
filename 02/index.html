@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NewComer Task 02</title>
+
+    <link rel="shortcut icon"
+    href="https://media1.tenor.com/m/VtFUW-durpoAAAAC/kururin-kuru-kuru.gif""
+    type="image/x-icon" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body id="seluruh">
+    <div class="container-content">
+      <h1>Halo Semua!!</h1>
+      <h2>
+        Perkenalkan Saya <br />
+        Muhammad <label>Dzulqornain</label>
+      </h2>
+      <p>
+        Saya merupakan maba angkatan <label>2025</label> dari prodi
+        <label> Sistem Informasi Unila</label>
+        <br />
+        officia aliquam similique perferendis dicta velit vero expedita
+        veritatis? <br />
+        <a href="https://github.com/dzenmori"> Github Saya</a>
+      </p>
+
+      <img
+        src="https://media1.tenor.com/m/VtFUW-durpoAAAAC/kururin-kuru-kuru.gif"
+        alt="herta kuru-kuru"
+      />
+      <div class="container">
+        <ul>
+          <h1>My Hobi</h1>
+        </ul>
+        <ul>
+          <li>jalan-jalan</li>
+          <li>makan</li>
+          <li>tidur</li>
+          <li>nonton anime</li>
+        </ul>
+
+        <ul>
+          <li>main game</li>
+          <li>dengerin musik</li>
+          <li>baca manga</li>
+          <li>jahilin kucing</li>
+        </ul>
+      </div>
+    </div>
+
+    <button id="tombol" onclick="darkMode()">🌙</button>
+
+    <script>
+      function darkMode() {
+        const body = document.getElementById("seluruh");
+        const button = document.getElementById("tombol");
+
+        if (button.innerHTML == "🌙") {
+          button.innerHTML = "🌞";
+        } else {
+          button.innerHTML = "🌙";
+        }
+        body.classList.toggle("dark");
+      }
+    </script>
+  </body>
+</html>

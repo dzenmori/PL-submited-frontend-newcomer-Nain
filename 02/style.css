@@ -1,0 +1,142 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.dark {
+  background-color: #1a1a1d;
+  color: white;
+  transition: ease 500ms;
+}
+
+.container-content {
+  width: 600px;
+  margin: auto;
+  /* padding-top: 1rem; */
+}
+
+body {
+  background-color: #f4f4f4;
+  transition: ease 500ms;
+}
+
+h1 {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h2 {
+  font-weight: 600;
+  padding-top: 0.5rem;
+}
+
+p label {
+  font-weight: 800;
+}
+
+label,
+h1 {
+  color: #a64d79;
+}
+
+img {
+  width: 300px;
+  display: block;
+  margin: auto;
+}
+
+h2,
+p,
+li {
+  font-family: sans-serif;
+}
+
+h1,
+h2,
+p,
+.container {
+  margin: 10px;
+}
+
+p {
+  text-align: justify;
+  padding-bottom: 10px;
+  font-weight: 350;
+}
+
+.container {
+  background: rgba(66, 66, 66, 0.185);
+  border: solid #a64d79 5px;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.container ul {
+  display: flex;
+  list-style: none;
+}
+
+.container ul li {
+  text-align: center;
+  width: 100%;
+  padding: 0.5rem;
+}
+
+.container ul h1:first-child {
+  text-align: center;
+  width: 100%;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.container ul:first-child {
+  border-bottom: 2px #a64d79 solid;
+}
+
+.container ul:nth-child(2) {
+  border-bottom: 2px #a64d79 solid;
+}
+
+.container ul li:first-child {
+  border-right: 2px #a64d79 solid;
+}
+
+.container ul li:nth-child(2) {
+  border-right: 2px #a64d79 solid;
+}
+
+.container ul li:last-child {
+  border-left: 2px #a64d79 solid;
+}
+
+#tombol {
+  position: absolute;
+  top: 0;
+  margin: 20px;
+  background-color: #a64d79;
+  border: none;
+  border-radius: 10px;
+  color: white; /* Text color */
+  font-size: 18px; /* Font size */
+  padding: 12px;
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+#tombol:hover {
+  background-color: purple;
+  color: white;
+}
+
+a {
+  color: #a64d79;
+  text-decoration: none;
+}
+
+a:hover {
+  transition: 500ms;
+  text-decoration: underline;
+  font-weight: 350;
+  color: purple;
+}
